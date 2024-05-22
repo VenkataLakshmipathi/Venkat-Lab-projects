@@ -1,0 +1,14 @@
+public class LargestNumber {
+
+	public static void main(String[] args) {
+		        int y= 15;
+		        int s = 25;
+		        int r = 35;
+
+		       int largest = (y> s) ? ((y > r) ? y: r) : ((s> r) ? s : r);
+
+		        System.out.println("The largest number is: " + largest);
+		    }
+		
+
+	}
